@@ -1,0 +1,7 @@
+lmdb
+matplotlib~=3.7.0
+pycocotools
+terminaltables
+tensorboard
+tqdm
+mmcv~=0.2.16
