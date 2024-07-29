@@ -125,16 +125,16 @@ pip install -r requirements.txt
 
 | Model                 | Epoch | Ckpt | Log |
 |-----------------------|:-----:|:----:|:---:|
-| SlimCLR-MoCov2        |  200  |  [48213217](48213217)        |  [48213217_log](48213217)    |
-| SlimCLR-MoCoV2-Linear |  200  |  [789b1a3b17](789b1a3b17)    | [789b1a3b17_log](789b1a3b17)     |
-| SlimCLR-MoCov2        |  800  |  [eda810a6a9](eda810a6a9)    | [eda810a6a9_log](eda810a6a9)   |
-| SlimCLR-MoCoV2-Linear |  800  |  [35600f623f](35600f623f)    | [35600f623f_log](35600f623f)    |
-| SlimCLR-MoCoV2-MaskRCNN |  800  |  [78afcc6ae3](78afcc6ae3)    | [78afcc6ae3_log](78afcc6ae3)    |
-| SlimCLR-MoCov3        | 300   |  [57e298e9cd](57e298e9cd)    | [57e298e9cd_log](57e298e9cd)   |
-| SlimCLR-MoCoV3-Linear | 300   |  [e35321e95c](e35321e95c)    | [e35321e95c_log](e35321e95c)    |
+| SlimCLR-MoCov2        |  200  |  [48213217](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep200-48213217.pth.tar)        |  [48213217_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep200-4821321.txt)    |
+| SlimCLR-MoCoV2-Linear |  200  |  [789b1a3b17](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep200-lincls-789b1a3b17.pth.tar)    | [789b1a3b17_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep200-lincls-789b1a3b17.txt)     |
+| SlimCLR-MoCov2        |  800  |  [eda810a6a9](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep800-eda810a6a9.pth.tar)    | [eda810a6a9_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep800-eda810a6a9.txt)   |
+| SlimCLR-MoCoV2-Linear |  800  |  [35600f623f](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep800-lincls-35600f623f.pth.tar)    | [35600f623f_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov2-ep800-lincls-35600f623f.txt)    |
+| SlimCLR-MoCoV2-MaskRCNN |  800  |  [78afcc6ae3](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr_mocov2_ep800_mask_rcnn_r50_fpn_1x_78afcc6ae3.pth)    | [78afcc6ae3_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr_mocov2_ep800_mask_rcnn_r50_fpn_1x_78afcc6ae3.json)    |
+| SlimCLR-MoCov3        | 300   |  [57e298e9cd](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov3-ep300-57e298e9cd.pth.tar)    | [57e298e9cd_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov3-ep300-57e298e9cd.txt)   |
+| SlimCLR-MoCoV3-Linear | 300   |  [e35321e95c](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov3-ep300-lincls-e35321e95c.pth.tar)    | [e35321e95c_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov3-ep300-lincls-e35321e95c.pth.tar)    |
 
 
-A backup of these checkpoints is at [BaiduYun](BaiduYun).
+A backup of these checkpoints is at [BaiduYunPan](BaiduYunPan).
 
 ## Training
 
