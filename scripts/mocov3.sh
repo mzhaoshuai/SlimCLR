@@ -75,7 +75,7 @@ case ${num} in
 		batch_size_per_gpu=128
 		gradient_accumulation_steps=1
 		slimmable_training=1
-		resume=${ROOT}/output/slimclr-mocov3-ep300-57e298e9cd.pth.tar
+		# resume=${ROOT}/output/slimclr-mocov3-ep300-57e298e9cd.pth.tar
 		;;
 	* )
 		;;
@@ -127,8 +127,8 @@ python ${runfile_ssl} --dataset_dir ${dataset_dir} \
 case ${num} in
    * )
 		lr=0.4
-		# lincls_pretrained=${log_dir}/ckpt.pth.tar
-		lincls_pretrained=${ROOT}/output/slimclr-mocov3-ep300-57e298e9cd.pth.tar
+		lincls_pretrained=${log_dir}/ckpt.pth.tar
+		# lincls_pretrained=${ROOT}/output/slimclr-mocov3-ep300-57e298e9cd.pth.tar
 		lincls_resume=None
 		;;
 esac

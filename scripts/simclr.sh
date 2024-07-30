@@ -59,7 +59,6 @@ do
 	case ${num} in
 	01 )
 		batch_size_per_gpu=128
-		gradient_accumulation_steps=1
 		# square learning rate 0.075 * (sqrt(BS))
 		# We use a batch size of 128 x 8 = 1024
 		lr=2.4
@@ -68,7 +67,6 @@ do
 		# SimCLR with slimmable networks
 		slimmable_training=1
 		batch_size_per_gpu=128
-		gradient_accumulation_steps=1
 		# square learning rate 0.075 * (sqrt(BS))
 		# We use a batch size of 128 x 8 = 1024
 		lr=2.4

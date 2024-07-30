@@ -12,7 +12,7 @@ The official implementation of [Slimmable Networks for Contrastive Self-supervis
 * [Installation](#Installation)
 * [Checkpoints](#Checkpoints)
 * [Training](#Training)
-* [Citations](#Citations)
+* [BibTex](#BibTex)
 * [Acknowledgements](#Acknowledgements)
 <!--te-->
 
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 | SlimCLR-MoCoV3-Linear | 300   |  [e35321e95c](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov3-ep300-lincls-e35321e95c.pth.tar)    | [e35321e95c_log](https://github.com/mzhaoshuai/SlimCLR/releases/download/1.0.0/slimclr-mocov3-ep300-lincls-e35321e95c.pth.tar)    |
 
 
-A backup of these checkpoints is at [BaiduYunPan](BaiduYunPan).
+A backup of these checkpoints is at [BaiduYunPan](https://pan.baidu.com/s/1Um48GaJK3DQiiXsRn-NRXQ?pwd=75qn).
 
 ## Training
 
@@ -173,7 +173,7 @@ bash benchmark/train.sh 8
 
 
 
-## Citations
+## BibTex
 ```
 @article{zhao2024slimclr,
   title={Slimmable Networks for Contrastive Self-supervised Learning},
