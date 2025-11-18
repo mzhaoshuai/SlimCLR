@@ -175,11 +175,15 @@ bash benchmark/train.sh 8
 
 ## BibTex
 ```
-@article{zhao2024slimclr,
-  title={Slimmable Networks for Contrastive Self-supervised Learning},
+@article{zhao2025slimmable,
+  title={Slimmable networks for contrastive self-supervised learning},
   author={Zhao, Shuai and Zhu, Linchao and Wang, Xiaohan and Yang, Yi},
   journal={International Journal of Computer Vision},
-  year={2024},
+  volume={133},
+  number={3},
+  pages={1222--1237},
+  year={2025},
+  publisher={Springer}
 }
 ```
 
